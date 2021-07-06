@@ -8,13 +8,13 @@
 import Foundation
 
 class GridViewModel: ObservableObject {
-    @Published var game: GridWords = GridWords(numberOfBoxes: 25)
+    @Published var grid: BoxGrid = BoxGrid(numberOfBoxes: 25)
     
     var boxes: [Box] {
-        game.boxes
+        grid.boxes
     }
     
     func setLetter(letter: String, box: Box) {
-        game.setLetter(letter, box: box)
+        grid.setLetter(letter, box: box)
     }
 }

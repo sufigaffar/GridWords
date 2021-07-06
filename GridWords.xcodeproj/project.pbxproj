@@ -20,6 +20,14 @@
 		AB64E49B268BA781009CA9CE /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64E49A268BA781009CA9CE /* Box.swift */; };
 		AB64E4A0268BA794009CA9CE /* GridWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64E49F268BA794009CA9CE /* GridWords.swift */; };
 		AB64E4A5268BA8CD009CA9CE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AB64E4A4268BA8CD009CA9CE /* .gitignore */; };
+		AB6B75DA2692300D00310052 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FE5E526921C10002B89CE /* GameKit.framework */; };
+		AB6B75DF2692311500310052 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B75DE2692311500310052 /* Game.swift */; };
+		AB6B75E32692319700310052 /* BoxGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B75E22692319700310052 /* BoxGrid.swift */; };
+		AB6B75E62692431C00310052 /* GameCenterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B75E52692431C00310052 /* GameCenterHelper.swift */; };
+		AB6B75EA269247A500310052 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B75E9269247A500310052 /* MenuViewModel.swift */; };
+		AB6B75EC269248BA00310052 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B75EB269248BA00310052 /* MenuView.swift */; };
+		AB6B75EE2694D37000310052 /* ViewControllerWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B75ED2694D37000310052 /* ViewControllerWrapperView.swift */; };
+		ABA4F786268E538100D8240D /* ScoreCalculatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4F785268E538100D8240D /* ScoreCalculatorService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB4FE5E526921C10002B89CE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		AB64E444268BA6E2009CA9CE /* GridWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB64E447268BA6E2009CA9CE /* GridWordsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridWordsApp.swift; sourceTree = "<group>"; };
 		AB64E44B268BA6E5009CA9CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +69,14 @@
 		AB64E49F268BA794009CA9CE /* GridWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridWords.swift; sourceTree = "<group>"; };
 		AB64E4A4268BA8CD009CA9CE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AB64E4A9268BA95E009CA9CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB6B75DB269230D800310052 /* GridWords.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GridWords.entitlements; sourceTree = "<group>"; };
+		AB6B75DE2692311500310052 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		AB6B75E22692319700310052 /* BoxGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxGrid.swift; sourceTree = "<group>"; };
+		AB6B75E52692431C00310052 /* GameCenterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterHelper.swift; sourceTree = "<group>"; };
+		AB6B75E9269247A500310052 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		AB6B75EB269248BA00310052 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		AB6B75ED2694D37000310052 /* ViewControllerWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWrapperView.swift; sourceTree = "<group>"; };
+		ABA4F785268E538100D8240D /* ScoreCalculatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6B75DA2692300D00310052 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4FE5E426921C0F002B89CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FE5E526921C10002B89CE /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB64E43B268BA6E1009CA9CE = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +122,7 @@
 				AB64E45D268BA6E5009CA9CE /* GridWordsTests */,
 				AB64E468268BA6E5009CA9CE /* GridWordsUITests */,
 				AB64E445268BA6E2009CA9CE /* Products */,
+				AB4FE5E426921C0F002B89CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +139,9 @@
 		AB64E446268BA6E2009CA9CE /* GridWords */ = {
 			isa = PBXGroup;
 			children = (
+				AB6B75E4269242F700310052 /* Helpers */,
+				AB6B75DB269230D800310052 /* GridWords.entitlements */,
+				ABA4F784268E536F00D8240D /* Services */,
 				AB64E47F268BA721009CA9CE /* ViewModels */,
 				AB64E47E268BA71D009CA9CE /* Views */,
 				AB64E47D268BA716009CA9CE /* Models */,
@@ -156,6 +186,8 @@
 			children = (
 				AB64E49A268BA781009CA9CE /* Box.swift */,
 				AB64E49F268BA794009CA9CE /* GridWords.swift */,
+				AB6B75DE2692311500310052 /* Game.swift */,
+				AB6B75E22692319700310052 /* BoxGrid.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +197,8 @@
 			children = (
 				AB64E490268BA756009CA9CE /* GridView.swift */,
 				AB64E495268BA76C009CA9CE /* LetterInputView.swift */,
+				AB6B75EB269248BA00310052 /* MenuView.swift */,
+				AB6B75ED2694D37000310052 /* ViewControllerWrapperView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,8 +207,25 @@
 			isa = PBXGroup;
 			children = (
 				AB64E48B268BA742009CA9CE /* GridViewModel.swift */,
+				AB6B75E9269247A500310052 /* MenuViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AB6B75E4269242F700310052 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B75E52692431C00310052 /* GameCenterHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ABA4F784268E536F00D8240D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4F785268E538100D8240D /* ScoreCalculatorService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,10 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6B75E62692431C00310052 /* GameCenterHelper.swift in Sources */,
+				AB6B75EE2694D37000310052 /* ViewControllerWrapperView.swift in Sources */,
+				AB6B75EA269247A500310052 /* MenuViewModel.swift in Sources */,
+				ABA4F786268E538100D8240D /* ScoreCalculatorService.swift in Sources */,
 				AB64E48C268BA742009CA9CE /* GridViewModel.swift in Sources */,
 				AB64E49B268BA781009CA9CE /* Box.swift in Sources */,
 				AB64E451268BA6E5009CA9CE /* Persistence.swift in Sources */,
 				AB64E448268BA6E2009CA9CE /* GridWordsApp.swift in Sources */,
+				AB6B75EC269248BA00310052 /* MenuView.swift in Sources */,
+				AB6B75E32692319700310052 /* BoxGrid.swift in Sources */,
+				AB6B75DF2692311500310052 /* Game.swift in Sources */,
 				AB64E496268BA76C009CA9CE /* LetterInputView.swift in Sources */,
 				AB64E491268BA756009CA9CE /* GridView.swift in Sources */,
 				AB64E454268BA6E5009CA9CE /* GridWords.xcdatamodeld in Sources */,
@@ -471,6 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GridWords/GridWords.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GridWords/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DV634V8DP;
@@ -493,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GridWords/GridWords.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GridWords/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DV634V8DP;

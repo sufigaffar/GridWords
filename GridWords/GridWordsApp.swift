@@ -13,8 +13,11 @@ struct GridWordsApp: App {
     let game = GridViewModel()
 
     var body: some Scene {
-        WindowGroup<Grid> {
-            Grid(viewModel: game)
+//        WindowGroup<Grid> {
+//            Grid(viewModel: game)
+//        }
+        WindowGroup<MenuView> {
+            MenuView(viewModel: MenuViewModel())
         }
     }
 }
